@@ -1,0 +1,1134 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="OneCoupon, 洛皇的博客">
+    <meta name="description" content="牛券项目遇到Bug看评论区！！！！！！
+代码学习指导 Prompt 模板123456789101112131415请按以下框架分析我的项目代码，生成学习路径和实战建议：**项目名称**: &amp;#123;项目名称，如“牛券优惠券平台”&amp;#125">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>OneCoupon | 洛皇的博客</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+
+
+    <!-- bg-cover style     -->
+
+
+
+<link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+<link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+<link rel="stylesheet" type="text/css" href="/css/matery.css">
+<link rel="stylesheet" type="text/css" href="/css/my.css">
+<link rel="stylesheet" type="text/css" href="/css/dark.css" media="none" onload="if(media!='all')media='all'">
+
+
+
+
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+    <link rel="stylesheet" href="/css/post.css">
+
+
+
+
+    
+
+
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">洛皇的博客</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;" class="waves-effect waves-light" onclick="switchNightMode()" title="深色/浅色模式" >
+      <i id="sum-moon-icon" class="fas fa-sun" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">洛皇的博客</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/005.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">OneCoupon</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E9%A1%B9%E7%9B%AE/">
+                                <span class="chip bg-color">项目</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2025-01-24
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="牛券项目"><a href="#牛券项目" class="headerlink" title="牛券项目"></a>牛券项目</h1><p>遇到Bug看评论区！！！！！！</p>
+<h3 id="代码学习指导-Prompt-模板"><a href="#代码学习指导-Prompt-模板" class="headerlink" title="代码学习指导 Prompt 模板"></a><strong>代码学习指导 Prompt 模板</strong></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">请按以下框架分析我的项目代码，生成学习路径和实战建议：</span><br><span class="line"></span><br><span class="line">**项目名称**: &#123;项目名称，如“牛券优惠券平台”&#125;  </span><br><span class="line">**当前阶段**: &#123;入门/进阶/面试准备&#125;  </span><br><span class="line">**核心代码位置**: &#123;类/方法路径，如“com.xxx.service.CouponServiceImpl”&#125;  </span><br><span class="line">**技术难点**: &#123;分库分表/分布式锁/幂等设计/其他&#125;  </span><br><span class="line">**学习目标**: &#123;掌握原理/面试八股/实战应用/代码改造&#125;  </span><br><span class="line">**已掌握知识**: &#123;Java基础/Spring框架/MySQL/Redis/其他&#125;  </span><br><span class="line"></span><br><span class="line">请按以下结构输出：  </span><br><span class="line">1. 核心功能解析（技术原理 + 代码流程图）  </span><br><span class="line">2. 分阶段学习策略（通读 → 精读 → 手敲 → 调试）  </span><br><span class="line">3. 高频面试题与话术（原理 + 优化 + 对比）  </span><br><span class="line">4. 避坑指南（常见错误 + 调试技巧）  </span><br><span class="line">5. 扩展学习资源（官方文档 + 视频 + 文章）  </span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="03小节：项目代码规范"><a href="#03小节：项目代码规范" class="headerlink" title="03小节：项目代码规范"></a>03小节：项目代码规范</h2><p><a target="_blank" rel="noopener" href="https://articles.zsxq.com/id_fb1w6wzpfa4n.html">《牛券oneCoupon优惠券系统设计》第03小节：牛券项目代码规范</a></p>
+<h2 id="04小节：配置基本项目"><a href="#04小节：配置基本项目" class="headerlink" title="04小节：配置基本项目"></a>04小节：配置基本项目</h2><p><a target="_blank" rel="noopener" href="https://articles.zsxq.com/id_tjsw4vu1xold.html">《牛券oneCoupon优惠券系统设计》第04小节：依赖中间件&amp;公有云使用讲解</a></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Redis</span><br><span class="line">连接地址：common-redis-dev.magestack.cn</span><br><span class="line">端口号：19389</span><br><span class="line">密码：Sm9sVXBOYJjI030b5tz0trjpzvZzRhtZmEbv0uOImcD1wEDOPfeaqNU4PxHob/Wp</span><br></pre></td></tr></table></figure>
+
+<p>​	优先部署最基本的服务，所以除了 MySQL 外的强依赖中间件都还没弄。<br>​	先拉取在main分支的代码到本地，然后按文档把所需的那几个Application先运行一遍再添加运行&#x2F;调试配置把虚拟机选项勾上，再复制参数到框框里，前两行要修改成个人的。下面是我的配置:</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">-Dunique-name=-luohuang233</span><br><span class="line">-Dframework.cache.redis.prefix=luohuang233:</span><br><span class="line">-Dspring.data.redis.host=common-redis-dev.magestack.cn</span><br><span class="line">-Dspring.data.redis.password=Sm9sVXBOYJjI030b5tz0trjpzvZzRhtZmEbv0uOImcD1wEDOPfeaqNU4PxHob/Wp</span><br><span class="line">-Dspring.data.redis.port=19389</span><br><span class="line">-Drocketmq.name-server=common-rocketmq-dev.magestack.cn:9876</span><br><span class="line">-Dspring.cloud.nacos.discovery.server-addr=common-nacos-dev.magestack.cn:8848</span><br></pre></td></tr></table></figure>
+
+
+<p><strong>为什么用 Docker 启动 MySQL？</strong></p>
+<ol>
+<li><strong>环境隔离</strong><br>Docker 容器将 MySQL 与宿主机环境隔离，避免不同项目依赖的 MySQL 版本冲突（如项目要求 5.7，而本地已装 8.0）。</li>
+<li><strong>快速部署</strong><br>通过一条命令即可启动标准化的 MySQL 实例，无需手动安装配置，适合团队统一开发环境。</li>
+<li><strong>数据安全</strong><br>文档中提到的“脏数据问题”是指多人直接操作同一 MySQL 实例可能导致数据混乱，而 Docker 容器化的 MySQL 实例默认数据仅在容器内（除非挂载卷），重启容器后数据会重置，避免长期污染。</li>
+</ol>
+<p>​	然后到Mysql的配置，安装好docker desktop后<strong>在cmd运行下面的命令</strong>来启动Mysql。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_HOST=&#x27;%&#x27; -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7.36</span><br></pre></td></tr></table></figure>
+
+<p>​	<strong>Docker 启动配置参数说明：</strong><br>​	Password如果修改的话要同时修改每个项目 resources 包下的 <code>shardingsphere-config.yaml</code> 对应的密码</p>
+<p>​	<code>	-d</code>：以后台的方式运行。</p>
+<p>​	<code>--name mysql</code>：指定容器的名称为 mysql。</p>
+<p>​	<code>-e MYSQL_ROOT_HOST=&#39;%&#39;</code>：允许 root 用户在任何主机访问。</p>
+<p>​	<code>-p 3306:3306</code>：将容器的 3306 端口挂载到宿主机的 3306 端口上。</p>
+<p>​	<code>	-e MYSQL_ROOT_PASSWORD=root</code>：指定 root 的密码为 root。</p>
+<p>​						<strong>docker里的mysql无法用navicat远程连接</strong></p>
+<p>docker run –name mysql -p 3306:3306 -e MYSQL_ROOT_HOST&#x3D;’%’ -e MYSQL_ROOT_PASSWORD&#x3D;root -d mysql:5.7.36我这样的docker语句在创建mysql容器后通过navicat连接数据库报错1130 - Host ‘172.17.0.1’ is not allowed to connect to this MySQL server怎么办？</p>
+<p>这个错误表明 MySQL 服务器不允许从 <code>172.17.0.1</code> 这个 IP 地址进行连接。你可以通过以下步骤来解决这个问题：</p>
+<ol>
+<li><p><strong>进入 MySQL 容器</strong>：<br>首先进入 MySQL 容器：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker <span class="built_in">exec</span> -it mysql bash</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>登录 MySQL</strong>：<br>使用 root 用户登录 MySQL：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mysql -u root -p</span><br></pre></td></tr></table></figure>
+
+<p>输入你设置的 root 密码（在你的例子中是 <code>root</code>）。</p>
+</li>
+<li><p><strong>授予远程访问权限</strong>：<br>在 MySQL 命令行中，执行以下命令，授予 root 用户从任意主机访问的权限：</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">GRANT</span> <span class="keyword">ALL</span> PRIVILEGES <span class="keyword">ON</span> <span class="operator">*</span>.<span class="operator">*</span> <span class="keyword">TO</span> <span class="string">&#x27;root&#x27;</span>@<span class="string">&#x27;%&#x27;</span> IDENTIFIED <span class="keyword">BY</span> <span class="string">&#x27;root&#x27;</span> <span class="keyword">WITH</span> <span class="keyword">GRANT</span> OPTION;</span><br><span class="line">FLUSH PRIVILEGES;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>退出 MySQL 并退出容器</strong>：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">exit</span></span><br><span class="line"><span class="built_in">exit</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>重启 MySQL 容器</strong>：<br>重新启动 MySQL 容器以确保更改生效：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker restart mysql</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>完成以上步骤后，你应该能够通过 Navicat 连接到 MySQL 数据库。</p>
+<h2 id="05小节：从零到一创建SpringBoot项目："><a href="#05小节：从零到一创建SpringBoot项目：" class="headerlink" title="05小节：从零到一创建SpringBoot项目："></a>05小节：从零到一创建SpringBoot项目：</h2><p><strong>SpringBoot Starter</strong></p>
+<p>SpringBoot Starter 是 SpringBoot 提供的一种简化配置和依赖管理的机制。它是预配置的依赖集合，旨在帮助开发者快速集成常用的库和功能，从而加速开发过程。</p>
+<p><strong>简化依赖配置</strong> ：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SpringBoot Starter 提供了一组常用的依赖，简化了 Maven 或 Gradle 中的配置。在使用 Starter 时，通常只需要在 `pom.xml` 或 `build.gradle` 中添加一个简单的依赖项，而不需要手动管理这些依赖的具体版本。</span><br><span class="line"></span><br><span class="line">例如 `spring-boot-starter-web`、`spring-boot-starter-data-jpa`、`spring-boot-starter-security` 等。这使得集成特定功能变得简单直观。</span><br></pre></td></tr></table></figure>
+
+
+
+<p>责任链模式：该项目有四个责任链函数用来检查创建优惠券时的问题。</p>
+<h2 id="06小节：后台管理系统讲解"><a href="#06小节：后台管理系统讲解" class="headerlink" title="06小节：后台管理系统讲解"></a>06小节：后台管理系统讲解</h2><ol>
+<li><pre><code>List&lt;User&gt; users = userMapper.selectBatchIds(List.of(1L, 2L, 3L, 4L));
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">### **实际运行流程**</span><br><span class="line"></span><br><span class="line">1. **SQL 生成**：</span><br><span class="line">   MyBatis-Plus 会将 `List.of(1L, 2L, 3L, 4L)` 转换为 SQL 的 `IN` 条件：</span><br><span class="line"></span><br><span class="line">   sql</span><br><span class="line"></span><br><span class="line">   复制</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+   SELECT * FROM user WHERE id IN (1, 2, 3, 4);
+   <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">   2. **查询结果**：</span><br><span class="line">      返回 `id` 为 `1`, `2`, `3`, `4` 的 `User` 对象列表。</span><br><span class="line"></span><br><span class="line">2. 初识分布式锁</span><br><span class="line"></span><br><span class="line">3. asdasdads</span><br><span class="line"></span><br><span class="line">4. asdasdas</span><br><span class="line"></span><br><span class="line">5. asdasd</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 07小节：优惠券分库分表</span><br><span class="line"></span><br><span class="line">1. 当数据量过大时需要分库分表，分库分表算法有：（哈希取模、时间范围分片）</span><br><span class="line">2. ​    分库分表的技术⽅案从总体上来说，可以分为两⼤类：应⽤层依赖类中间件、中间层代理类中间件。</span><br><span class="line">   本项目使用到的是**ShardingSphere**（中间层代理类）：</span><br><span class="line">   ​        ShardingSphere是⼀套开源的分布式数据库中间件解决⽅案组成的⽣态圈，它由Sharding-JDBC、 Sharding-Proxy和Sharding-Sidecar（计划中）这3款相互独⽴的产品组成。 他们均提供标准化的数 据分⽚、分布式事务和数据库治理功能，可适⽤于如Java同构、异构语⾔、容器、云原⽣等各种多样化 的应⽤场景。</span><br><span class="line">3. 由于通过哈希值取模进行两个库的划分，导致取模分表时发生数据不一致的情况，此时将0号库8-15和1号库0-7表删除，并通过自定义哈希算法实现数据均匀分配</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 08小节：日志功能实现(未完结)</span><br><span class="line"></span><br><span class="line">1. 该节借助美团 mzt-biz-log 操作日志框架并在**应用启动类（MerchantAdminApplication** ）添加 `@EnableLogRecord` 注解，并配置租户tenant实现。</span><br><span class="line">2. tenant 是代表租户的标识，一般一个服务或者一个业务下的多个服务都固定一个 tenant 就可以。</span><br><span class="line">3. 此节在后续学习RocketMQ后，需要在 `DBLogRecordServiceImpl#record` 方法中调用消息队列异步记录日志。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 09小节：**基于注解实现分布式锁防重复提交**</span><br><span class="line"></span><br><span class="line">1. 为什么不能用本地锁(常见的本地锁有`synchronized` 和 `ReentrantLock`，这两个是悲观锁)？</span><br><span class="line"></span><br><span class="line">   **范围有限**：本地锁仅在应用程序的单个实例中有效。如果你的应用程序在多台服务器上运行（即分布式环境），每个实例的本地锁相互独立，无法在集群中共享锁状态。</span><br><span class="line"></span><br><span class="line">   **竞争条件**：不同实例上的本地锁无法相互感知，这意味着多个实例可能同时认为自己获得了锁，从而导致并发冲突。</span><br><span class="line"></span><br><span class="line">2. `@RequiredArgsConstructor`注解：简化 `@Autowired` 的书写过程，需注意，在类上添加 `@RequiredArgsConstructor` 时，需要注入的类必须使用 `final` 进行声明。也就是@Autowired改成多加一个 `final`</span><br><span class="line"></span><br><span class="line">3. Bug: 如果测试类报缺少依赖org/aspectj/lang/joinpoint 可以尝试刷新maven依赖</span><br><span class="line"></span><br><span class="line">4. 通过使用分布式锁机制，这段代码确保了在同一时间只有一个请求能够执行标记了 `@NoDuplicateSubmit` 注解的方法，其他重复的请求会因为无法获取到锁而被拦截，从而实现了幂等性，避免了重复提交带来的副作用。</span><br><span class="line"></span><br><span class="line">5. 为什么用分布式锁而不是内置的`synchronized`和`ReentrantLock`？</span><br><span class="line">   在分布式系统中，多个节点可能同时处理同一个用户的请求。使用分布式锁可以保证在整个系统范围内，同一时间只有一个请求能够执行标记了 `@NoDuplicateSubmit` 注解的方法，避免重复提交。</span><br><span class="line"></span><br><span class="line">6. 213</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 11小节：消息队列MQ修改优惠券结束状态</span><br><span class="line"></span><br><span class="line">1. 该节是通过消息队列的**延时消息(RocketMq版本在5.x以上)**发送实现修改优惠券状态为截止态的。MQ的默认设置延时消息存在时间为3天，如果有长时间的优惠券就需要自定义存在时间，如果优惠券截止时间很长那延时消息存在时间就很长占用的内存就很多，此时可以使用xxl-job定时任务更新优惠券状态（重点）</span><br><span class="line"></span><br><span class="line">   ### 结合使用的建议</span><br><span class="line"></span><br><span class="line">   可以考虑将 XXL - Job 和消息队列结合使用，充分发挥两者的优势。</span><br><span class="line"></span><br><span class="line">   - **消息队列处理实时性要求高的场景**：对于有效期较短的优惠券（如秒杀券、限时折扣券），使用消息队列的延时消息机制，确保在优惠券过期时能及时更新状态。</span><br><span class="line"></span><br><span class="line">   - **XXL - Job 进行定期检查和兜底处理**：使用 XXL - Job 定期扫描数据库，检查是否有漏处理的过期优惠券，作为消息队列的补充，保证系统的准确性和稳定性。</span><br><span class="line"></span><br><span class="line">     **设计思路**设定一个阈值（如7天），有效期短于该值的用 **延时队列**，长于该值的用 **定时任务**。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+  long delayTime = couponTemplateDO.getValidEndTime().getTime();
+  long now = System.currentTimeMillis();
+  
+  if (delayTime - now &lt;= 7 * 24 * 3600 * 1000L) &#123;
+      // 使用延时队列
+      sendDelayMessage(delayTime);
+  &#125; else &#123;
+      // 记录到数据库，由定时任务处理
+      saveToDBForJobScan();
+  &#125;
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">2. 在文档里按步骤运行和发送优惠券模板关闭消息时，如果没有在云RocketMq上找到自己的Topic，可以尝试刷新一下DashBoard。</span><br><span class="line"></span><br><span class="line">3. 自定义topic:  one-coupon_merchant-admin-service_coupon-template-delay_topic-LuoHuang</span><br><span class="line"></span><br><span class="line">4. 订阅组Id：one-coupon_merchant-admin-service_coupon-template-delay-status_cg-LuoHuang</span><br><span class="line"></span><br><span class="line">5. 不知道为什么只能看到优惠券的生产者消息，消费者消息看不到，所以key搜不到</span><br><span class="line">   **后续：**消费者消息是在监听优惠券截止日期到时自动运行的，如果手动结束是不算的</span><br><span class="line"></span><br><span class="line">6. 2131</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 12小节：EasyExcel读取百万级Excel避免OOM</span><br><span class="line"></span><br><span class="line">1. </span><br><span class="line">2. 123</span><br><span class="line">3. 123</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 13小节：通过线程池和延时队列优化接口响应时间</span><br><span class="line"></span><br><span class="line">1. 在上一节虽然在内存方面解决了百万级excel数据的内存安全问题，但是接口响应太慢，百万数据量需要解析 5 秒，这种在后管系统里不是不能接受，但是能优化还是要优化。</span><br><span class="line"></span><br><span class="line">2. 有些同学可能习惯使用 `Executors` 工具类直接创建线程池，这种是不推荐的。虽然 `Executors` 提供了创建线程池的便捷方法，然而，`Executors` 基于默认配置创建的线程池可能并不适合所有场景，这里我们说下每个方法创建的线程池都有哪些弊端：</span><br><span class="line"></span><br><span class="line">   (1). `newFixedThreadPool` 和 `newSingleThreadExecutor`：这两种固定大小的线程池使用无界的 `LinkedBlockingQueue` 作为工作队列。当任务提交速度超过处理速度时，工作队列会不断增长，可能导致内存溢出。</span><br><span class="line"></span><br><span class="line">   (2). `newScheduledThreadPool`：虽然最大线程数是 `Integer` 最大值，但是因为阻塞队列是无界的，所以核心问题同上。</span><br><span class="line"></span><br><span class="line">   (3). `newCachedThreadPool`：核心线程数为 0，使用同步的 `SynchronousQueue`，并且允许创建无限数量的线程。在高并发情况下，可能会创建大量线程，导致系统资源耗尽，甚至使系统崩溃。</span><br><span class="line"></span><br><span class="line">3. ### **高频面试题与话术**</span><br><span class="line"></span><br><span class="line">   #### **1. 如何保证异步任务可靠性？**</span><br><span class="line"></span><br><span class="line">   - 项目中通过 **线程池异步处理 + Redisson延迟队列兜底** 保证可靠性。提交任务后，异步统计Excel行数并更新数据库。同时向延迟队列投递消息，若20秒后任务未完成（如应用崩溃），消费者会重新统计，确保最终一致性。</span><br><span class="line"></span><br><span class="line">   #### **2. 为什么选择 DiscardPolicy？**</span><br><span class="line"></span><br><span class="line">   - 因为统计行数是幂等操作，即便任务被丢弃，延迟队列的兜底机制也会重新触发。选择 `DiscardPolicy` 避免线程池积压，优先保证系统吞吐量。</span><br><span class="line"></span><br><span class="line">   #### **3. 延迟队列消息丢失怎么办？**</span><br><span class="line"></span><br><span class="line">   - 这是最终一致性方案，极端情况下（如Redis宕机），可通过人工补偿或增加数据库状态轮询机制修复数据。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 15小节：使用XXL-Job管理各种服务</span><br><span class="line"></span><br><span class="line">1. XXL-Job 是一个分布式任务调度平台。项目引入xxl-job是为了开发定时执行任务，比如该节是开发创建数个优惠券推送任务</span><br><span class="line"></span><br><span class="line">2. application.yml配置信息</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+xxl-job:
+  enabled: true # 默认是false，需要用到才打开
+  access-token: default_token
+  admin:
+    addresses: http://localhost:9090/xxl-job-admin
+  executor:
+    application-name: one-coupon-merchant-admin
+    ip: 127.0.0.1
+    log-retention-days: 30
+    port: 19999
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">3. 在开始时要启动Xxl-job项目的启动类，然后打开任务调度中心: http://localhost:9090/xxl-job-admin/，来创建和管理定时任务，任务在不用时需要手动关闭。这样才能让本项目正常运行该功能。</span><br><span class="line"></span><br><span class="line">4. 123</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 16小节：查询优惠券的缓存击穿问题</span><br><span class="line"></span><br><span class="line">1. 从此节开始进入引擎篇，引擎篇的调试地址为http://127.0.0.1:10020/doc.html#/ 和后管不一样</span><br><span class="line">2. 这里通过双重判定锁的形式，**在获取到分布式锁之后，再次查询一次缓存是否存在**，因为之前每次获取锁都会查询一次数据库，这样可以避免大量的请求同时访问数据库。</span><br><span class="line">3. 132</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 17小节：查询优惠券的缓存穿透问题</span><br><span class="line"></span><br><span class="line">1. 123123</span><br><span class="line">2. 13212</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 19小节：用户优惠券分发功能</span><br><span class="line"></span><br><span class="line">1. 按文档创建优惠券分发任务后，提交在distribution模块里能看到分发任务开始执行</span><br><span class="line">2. 调试了一晚上，发现虽然数据库的task表在2000条excel数据分发后显示创建优惠券任务推送成功(status=3)，但是user表里却没有领到优惠券并且优惠券模板的stock数量也没有变少，三小时才发现原来是distribution模块里的redis配置为本地没有改成服务器，引以为戒！！！！</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 20小节：用户优惠券分发功能2</span><br><span class="line"></span><br><span class="line">1. 这一节没看懂优化，说是在 v1 版本的基础上，通过引入批处理和保存失败记录的逻辑，大幅提升了业务执行性能。但实际测试花费的时间比v1版本还长。感觉应该是</span><br><span class="line">2. 这节很重要，涉及</span><br><span class="line">   (1). 批量保存用户分发记录</span><br><span class="line">   (2).达到条件执行消息队列分发消费者</span><br><span class="line">   还通过**位移操作巧妙提升了返回数据的性能**，本来是status（true false)和number(0-^13)，然后通过位移操作替代字符串合并操作把两个字段合并成一个，比字符串合并省时一点点</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 第21小节：优惠券分发失败记录深分页优化</span><br><span class="line"></span><br><span class="line">1. 评论区说这节**分发失败的情况并不常见**，不是很重要，理解深分页问题的几个解决方法就行</span><br><span class="line">2. **深分页问题：**就是表里面数据过多导致分页过多进而导致在数据库搜索某些数据的时候时间开销大，常用的解决方式有：**子查询**（利用索引加快查询）、**内连接查询**（inner join），但所需时间会随着数据量增多而增大，治标不治本。</span><br><span class="line">3. **书签记录：**(不适合用在用户层的查询里）从原理上说，属于是一种滚动查询。也就是说我们必须从第一页开始查询，然后获取本页最大的记录 ID，然后再根据大于最大记录 ID 的数据向后持续滚动。也就是说，我们如果想查询大于 4999990 后记录的 10 条，那我们就得知道 4999990 条的 ID。因为我们 ID 是递增的，所以直接查询即可。</span><br><span class="line">   **但是**: 这个有点不好的地方在于，不支持跳页，只能上一页和下一页。不过对我们系统来说无所谓，反正是读取所有失败分发的记录生成 Excel 就好。</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">## 22小节：基于幂等注解实现去重表消息防止重复消费(面试)</span><br><span class="line"></span><br><span class="line">1. 使用 **Redis 消息去重表**，不依赖事务，针对消息表本身做了状态的区分：**消费中、消费完成**。</span><br><span class="line"></span><br><span class="line">   如果消息已经在消费中，抛出异常，消息会触发延迟消费，在 RocketMQ 的场景下如果消息消费失败，会间隔时间后再次发起消费流程。</span><br><span class="line"></span><br><span class="line">2. 幂等注解的过程: 通过set结合NX把消费记录存到redis，如果重复消费就会查询redis记录防止消费记录覆盖</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+local key = KEYS[1] # 第一个 Key，即幂等唯一标识 uniqueKey
+local value = ARGV[1] # 第一个参数，即初始化幂等消费状态，为消费中
+local expire_time_ms = ARGV[2] # 第二个参数，即幂等 Key 过期时间
+
+return redis.call(&#39;SET&#39;, key, value, &#39;NX&#39;, &#39;GET&#39;, &#39;PX&#39;, expire_time_ms)
+</code></pre>
+<p>最重要的是返回值那一行：</p>
+<p><code>SET key value</code>: 在 Redis 中设置 <code>key</code> 对应的值为 <code>value</code>。</p>
+<p><strong><code>&#39;NX&#39;</code>: 表示只有在 <code>key</code> 不存在时才执行设置操作，防止覆盖已有值。</strong></p>
+<p><code>&#39;GET&#39;</code>: 表示在设置新值之前，获取并返回设置前的旧值（Redis 6.2 开始支持 <code>SET</code> 命令的 <code>GET</code> 选项）。</p>
+<p><code>&#39;PX expire_time_ms&#39;</code>: 设置 <code>key</code> 的过期时间，单位是毫秒。</p>
+<p><strong>该脚本的主要作用是：在 Redis 中尝试以 <code>NX</code> 方式设置一个键，即如果键不存在，则设置新值，并返回设置之前的旧值，同时为该键设置过期时间（以毫秒为单位）。</strong></p>
+<p>获取到 Redis 里面的 Key 值后，可能会有三个流程执行：</p>
+<p><code>absentAndGet</code> 为空：代表消息是第一次到达，执行完 LUA 脚本后，会在 Redis 设置 Key 的 Value 值为 0，消费中状态。</p>
+<p><code>absentAndGet</code> 为 0：代表已经有相同消息到达并且还没有处理完，会通过抛异常的形式让 RocketMQ 重试。</p>
+<p><code>absentAndGet</code> 为 1：代表已经有相同消息消费完成，返回空表示不执行任何处理。</p>
+</li>
+</ol>
+<h2 id="23小节：开发兑换-x2F-秒杀优惠券功能（一）"><a href="#23小节：开发兑换-x2F-秒杀优惠券功能（一）" class="headerlink" title="23小节：开发兑换&#x2F;秒杀优惠券功能（一）"></a>23小节：<strong>开发兑换&#x2F;秒杀优惠券功能（一）</strong></h2><ol>
+<li><p>– Lua 脚本: 检查用户是否达到优惠券领取上限并记录领取次数 </p>
+</li>
+<li><p>这里我们还是采用了之前的策略，将返回的两个参数包装为一个 long 类型的数据，两个参数分别如下：</p>
+<p>请求是否成功：有 3 个参数，0 代表请求成功，1 代表优惠券已被领取完啦，2 代表用户已经达到领取上限。</p>
+<p>用户领取次数：初始化为 0，每次领取成功后自增加 1</p>
+</li>
+<li><p><em>因为我们是在配置中固定写的用户 ID，所以数据都会写到 0 库的 &#96;t_user_coupon_13 表。</em></p>
+</li>
+<li><p>大家都知道，如果保存 Redis 后，Redis 即使返回给你成功，但是数据不一定是能持久化成功的，因为在极端宕机情况下，持久化配置中 AOF 最优结果下，也是会丢一条数据的。</p>
+</li>
+<li><p>我不知道这项目是不是主从模式的redis，<strong>假设Redis 如果是主从配置</strong>，主从数据同步是异步的，如果主节点写入成功，返回客户端成功，还没来得及同步从节点宕机了，从节点成为主节点，那么这个数据就成糊涂账了。为此，我们写了一个<strong>很八股的写法，那就是通过先写再查</strong>。</p>
+</li>
+<li><p><strong>Docker里的Mysql开启binlog：</strong>binlog有两大作用，一个是使用binlog恢复数据，另一个就是用来做主从复制。</p>
+</li>
+<li><p>Engine的Topic为：<code>one-coupon_canal_engine-service_common-sync_topic-luohuang233</code></p>
+</li>
+<li><p>直接修改user_coupon_0表发现MQ里查不到消息，文档下面还有句话，在配置里有两种状态direct和binlog，默认是direct所以查不到，改为binlog才能查到</p>
+</li>
+<li><p>改了3小时代码发现，canal的instance.properties配置文件中需要修改canal.instance.filter.regex为“^(one_coupon_rebuild_0|one_coupon_rebuild_1)\.(t_user_coupon_([0-9]|1[0-5]|1[6-9]|2[0-9]|3[0-1]))$”，其实就是数据库名字中间加了个rebuild，否则canal会找不到需要监听的数据库下的表</p>
+</li>
+<li><p>canal报错Could not find first log file name in binary log index file的，把example下的meta.dat删了</p>
+</li>
+<li><p><strong>如果不想用到canal就在Engine里的application.yaml配置里把binlog改为direct</strong>，</p>
+</li>
+</ol>
+<h2 id="第25小节：开发优惠券预约通知功能（一）"><a href="#第25小节：开发优惠券预约通知功能（一）" class="headerlink" title="第25小节：开发优惠券预约通知功能（一）"></a>第25小节：开发优惠券预约通知功能（一）</h2><ol>
+<li>该节使用位运算结合Long类型组成64位的二进制串用来存储提醒消息，每种类型的通知时间占用12位（60&#x2F;5)<br>但项目里仅有（短信通知和邮件通知），只用到24 + 4位</li>
+</ol>
+<h2 id="第27小节：用户查询-x2F-取消优惠券预约提醒功能"><a href="#第27小节：用户查询-x2F-取消优惠券预约提醒功能" class="headerlink" title="第27小节：用户查询&#x2F;取消优惠券预约提醒功能"></a><strong>第27小节：用户查询&#x2F;取消优惠券预约提醒功能</strong></h2><ol>
+<li><p><strong>查询用户优惠券预约提醒列表</strong>：</p>
+<p>逻辑整体来说比较简单，但是有两个我认为的难点：</p>
+<ul>
+<li>如何将位图中的信息解析为正常的预约记录？</li>
+<li>因为用户预约的优惠券可能是跨多个库的，如何完成跨库查询？</li>
+</ul>
+</li>
+</ol>
+<h2 id="第30小节：并发查询用户可用-x2F-不可用优惠券-amp-计算折扣金额"><a href="#第30小节：并发查询用户可用-x2F-不可用优惠券-amp-计算折扣金额" class="headerlink" title="第30小节：并发查询用户可用&#x2F;不可用优惠券&amp;计算折扣金额"></a><strong>第30小节：并发查询用户可用&#x2F;不可用优惠券&amp;计算折扣金额</strong></h2><ol>
+<li><p>在本章节中，我们通过多线程并行优化技术，将原先串行处理的优惠券计算逻辑改造为基于 <code>CompletableFuture</code> 的多线程并行处理方案。这种方式能够在处理大量优惠券时有效降低计算延时，提高系统响应速度。尤其是在每个优惠券的计算逻辑相对复杂时，多线程并行能够显著提升处理效率。</p>
+<p><strong>为了确保线程安全，我们使用了 <code>Collections.synchronizedList</code> 保护共享集合</strong>，避免多线程写入时出现数据不一致的问题。同时，通过合理设置线程池参数，保证系统资源的高效利用。</p>
+<p>通过多线程并行执行，原本可能需要较长时间的优惠券计算任务在性能上得到了显著优化，为用户提供了更快速的查询体验。</p>
+</li>
+<li><h4 id="为什么不用-CopyOnWriteArrayList确保线程安全？"><a href="#为什么不用-CopyOnWriteArrayList确保线程安全？" class="headerlink" title="为什么不用 CopyOnWriteArrayList确保线程安全？"></a>为什么不用 CopyOnWriteArrayList确保线程安全？</h4><p><code>CopyOnWriteArrayList</code> 是一种线程安全的 <code>List</code> 实现，它通过每次写操作时复制整个底层数组来实现线程安全，非常适合读多写少的场景。为什么我们的场景不使用这个性能更高的 List？</p>
+<p><code>CopyOnWriteArrayList</code> 的核心机制是 <strong>每次写操作（如 <code>add</code>、<code>set</code>、<code>remove</code>）都会创建整个数组的副本</strong>。这种操作虽然可以保证线程安全，但每次修改时都需要复制整个数组，开销非常大。</p>
+<ul>
+<li>当集合中的元素较多，且有频繁的写操作时，<code>CopyOnWriteArrayList</code> 会显著增加内存使用和 CPU 资源消耗。</li>
+<li>如果数据量大，可能导致内存消耗过高，甚至会引发 <code>OutOfMemoryError</code>。</li>
+<li>因此，**<code>CopyOnWriteArrayList</code> 更适用于读多写少的场景**，在高频写入的场景下并不合适。而我们场景仅是写入并且排序，直接就返回前端了，所以基本上没有读场景，所以可以直接忽略掉。</li>
+</ul>
+</li>
+</ol>
+<h2 id="第31小节：查询可用-不可用优惠券压力测试"><a href="#第31小节：查询可用-不可用优惠券压力测试" class="headerlink" title="第31小节：查询可用\不可用优惠券压力测试"></a>第31小节：查询可用\不可用优惠券压力测试</h2><ol>
+<li>Jmeter只能用jdk8打开，jdk17不支持，记得切环境变量。</li>
+<li>文档里没写，要自己创建优惠券模板大概十几个并领取（可以用写好的那个创建五个优惠券的测试用例），之后把缓存写入redis里才能进行压力测试，否则测试结果是空的</li>
+<li>测试结果：线程数100，循环1000次，rump-up时间1秒，吞吐量1300&#x2F;sec<br>面试时回答领取10张优惠券，线程数100，循环1000次，吞吐量3800&#x2F;sec</li>
+</ol>
+<h2 id="第32小节：并发查询可用-不可用优惠券压力测试"><a href="#第32小节：并发查询可用-不可用优惠券压力测试" class="headerlink" title="第32小节：并发查询可用\不可用优惠券压力测试"></a>第32小节：并发查询可用\不可用优惠券压力测试</h2><ol>
+<li>测试结果：没有优惠券时：线程数100，循环1000次，rump-up时间1秒，吞吐量1300&#x2F;sec</li>
+<li>文档里说由于线程上下文切换导致并发比普通查询慢，如果涉及计算等CPU消耗资源大的场景再用线程池做并发比较好</li>
+<li>那什么场景下适合用线程池并发编程？<ul>
+<li><strong>I&#x2F;O 密集型任务</strong>：I&#x2F;O 密集型任务通常包含大量的等待时间，比如文件读写、网络请求、数据库操作等。由于 I&#x2F;O 操作（例如磁盘读写、网络传输）在 CPU 上处于阻塞状态，因此此类任务非常适合使用多线程模型来提高吞吐量。多个线程可以在 I&#x2F;O 等待时并行执行，从而充分利用 CPU 空闲时间。比如：数据库查询操作（如多数据库并行查询）、文件处理（文件上传、下载、大文件的读写）、网络调用（HTTP 请求、RPC 调用、Socket 通信）等。</li>
+<li><strong>CPU 密集型任务</strong>：CPU 密集型任务通常是一些需要大量计算的任务，比如复杂的数学运算、机器学习模型训练、图像处理等。对于这类任务，可以使用线程池将任务分发到不同的 CPU 核心执行，从而充分利用多核 CPU 的计算能力。比如：大量复杂计算（如排序、数据分析等）等。</li>
+</ul>
+</li>
+<li>测试结果：线程数100，循环1000次，rump-up时间1秒，<br>面试时回答领取10张优惠券，线程数100，循环1000次，吞吐量2700&#x2F;sec</li>
+</ol>
+<h2 id="第33小节：秒杀优惠券压力测试"><a href="#第33小节：秒杀优惠券压力测试" class="headerlink" title="第33小节：秒杀优惠券压力测试"></a>第33小节：秒杀优惠券压力测试</h2><ol>
+<li>要创建一个很多张并且限领次数很多的优惠券，然后把优惠券id替换到jmeter里的HTTP请求</li>
+<li>由于RocketMQ和Redis是部署在服务器的，项目运行在本地，所以吞吐量比本地部署少很多，面试时回答 <strong>100 个线程会调用 400 次牛券接口，最终会模拟产生 40000 次用户请求</strong>，吞吐量在1600左右，先发送消息到生产者，等消息发送40000次的过程中消费者再慢慢消费。</li>
+<li>面试时回答领取10张优惠券，线程数100，循环1000次，吞吐量1000+&#x2F;sec</li>
+</ol>
+<h2 id="第34小节：压测优惠券推送任务分发性能"><a href="#第34小节：压测优惠券推送任务分发性能" class="headerlink" title="第34小节：压测优惠券推送任务分发性能"></a><strong>第34小节：压测优惠券推送任务分发性能</strong></h2><ol>
+<li>结合12小节读取百万条用户数据的excel和20小节批量操作 Redis 和 MySQL（5000条每次）将发送消息队列通知具体的优惠券分发消费者进行处理</li>
+<li>原来5000个用户批量分发耗时1s，现在百万用户耗时210秒（3分半）</li>
+<li>面试时回答原来的分发是单条分发，5000条耗时一分钟，改成多条批量分发耗时3秒，十万（100000）耗时一分多钟。</li>
+</ol>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Luo Huang</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://example.com/2025/01/24/OneCoupon/">http://example.com/2025/01/24/OneCoupon/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Luo Huang</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/%E9%A1%B9%E7%9B%AE/">
+                                    <span class="chip bg-color">项目</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2025/01/24/OneCoupon/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/005.jpg" class="responsive-img" alt="OneCoupon">
+                        
+                        <span class="card-title">OneCoupon</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2025-01-24
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Luo Huang
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E9%A1%B9%E7%9B%AE/">
+                        <span class="chip bg-color">项目</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2024/08/13/CS61B%E5%AE%9E%E9%AA%8C%E5%B0%8F%E7%BB%93/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="CS61B实验小结">
+                        
+                        <span class="card-title">CS61B实验小结</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-08-13
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Luo Huang
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E5%AD%A6%E4%B9%A0/">
+                        <span class="chip bg-color">学习</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+
+    <div class="container row center-align"
+         style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2022-2025</span>
+            
+            <a href="/about" target="_blank">Luo Huang</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            
+            
+                
+            
+            
+                <span id="busuanzi_container_site_pv">
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
+                    <span id="busuanzi_value_site_pv" class="white-color"></span>
+            </span>
+            
+            
+                <span id="busuanzi_container_site_uv">
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
+                    <span id="busuanzi_value_site_uv" class="white-color"></span>
+            </span>
+            
+            <br>
+
+            <!-- 运行天数提醒. -->
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/ycluohuang" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:982167280qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=982167280" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 982167280" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 白天和黑夜主题 -->
+<div class="stars-con">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>  
+</div>
+
+<script>
+    function switchNightMode() {
+        $('<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"></div></div>').appendTo($('body')),
+        setTimeout(function () {
+            $('body').hasClass('DarkMode') 
+            ? ($('body').removeClass('DarkMode'), localStorage.setItem('isDark', '0'), $('#sum-moon-icon').removeClass("fa-sun").addClass('fa-moon')) 
+            : ($('body').addClass('DarkMode'), localStorage.setItem('isDark', '1'), $('#sum-moon-icon').addClass("fa-sun").removeClass('fa-moon')),
+            
+            setTimeout(function () {
+            $('.Cuteen_DarkSky').fadeOut(1e3, function () {
+                $(this).remove()
+            })
+            }, 2e3)
+        })
+    }
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    
+
+    
+
+    <!-- 雪花特效 -->
+    
+
+    <!-- 鼠标星星特效 -->
+    
+
+     
+        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+        <script src="/libs/others/TencentCaptcha.js"></script>
+        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
+    
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
